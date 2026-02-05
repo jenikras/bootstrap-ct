@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index page</title>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+
+    <!-- Theme CSS -->
+    <link type="text/css" href="./assets/css/soft-design-system-pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+</head>
+
+<body>
+
+    <!-- -------- START HEADER 4 w/ search book a ticket form ------- -->
+    <header>
+
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-light  blur blur-rounded top-0 border-bottom z-index-3 shadow w-100 mt-4 my-3 py-2">
+            <div class="container-fluid">
+                <a class="navbar-brand font-weight-bolder ms-3" href="" rel="tooltip"
+                    title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+                    Web Portal Logo
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>ee
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar-nav-hover ms-auto">
+                        <li class="nav-item px-3">
+                            <a class="nav-link">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item px-3">
+                            <a class="nav-link">
+                                Features
+                            </a>
+                        </li>
+
+                        <li class="nav-item px-3">
+                            <a class="nav-link">
+                                Pricing
+                            </a>
+                        </li>
+
+                        <li class="nav-item px-3">
+                            <a class="nav-link">
+                                Faq
+                            </a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <button class="btn btn-sm  bg-gradient-dark  btn-round mb-0 me-1">Buy Now</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-lg-2 col-xs-12">
+                    <nav id="side-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Business area</a></li>
+                            <li><a href="#">Consumer's area</a></li>
+                            <li><a href="#">Customer's area</a></li>
+                            <li><a href="#">Get in touch</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col col-lg-8 col-xs-12">
+                    <div class="page-header min-vh-45"
+                        style="background-image: url(https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/airport.jpg)">
+                        <span class="mask bg-gradient-dark"></span>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 mx-auto text-white text-center">
+                                    <h2 class="text-white">Centered hero</h2>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                        nesciunt
+                                        eveniet sequi, odio nemo assumenda id culpa quasi minus dolor. Mollitia,
+                                        laudantium. Vel
+                                        aliquam labore voluptatem, ex commodi reprehenderit nam?</p>
+                                    <button class="btn btn-icon btn-3 bg-gradient-info" type="button">
+                                        <span class="btn-inner--icon"><i class="ni ni-button-play"></i></span>
+                                        <span class="btn-inner--text">Customer view </span>
+                                    </button>
+
+                                    <button class="btn btn-icon btn-3 bg-gradient-success" type="button">
+                                        <span class="btn-inner--icon"><i class="ni ni-button-play"></i></span>
+                                        <span class="btn-inner--text">Business view</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div
+                            class="row bg-white shadow-lg mt-n6 border-radius-md pb-4 p-3 mx-sm-0 mx-5 position-relative">
+                            <div class="col-lg-3 mt-lg-n2 mt-2">
+                                <label class="">Leave From</label>
+                                <select class="form-control" name="choices-leave" id="choices-leave"
+                                    placeholder="Departure">
+                                    <option value="Choice 1" selected="">Brazil</option>
+                                    <option value="Choice 2">Bucharest</option>
+                                    <option value="Choice 3">London</option>
+                                    <option value="Choice 4">USA</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3 mt-lg-n2 mt-2">
+                                <label class="">To</label>
+                                <select class="form-control" name="choices-to" id="choices-to"
+                                    placeholder="Destination">
+                                    <option value="Choice 1" selected="">Italy</option>
+                                    <option value="Choice 2">Spain</option>
+                                    <option value="Choice 3">Denmark</option>
+                                    <option value="Choice 4">Poland</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3 mt-lg-n2 mt-2">
+                                <label class="">Depart</label>
+
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-calendar"></i></span>
+                                    <input class="form-control datepicker" placeholder="Please select date" type="text">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 d-flex align-items-center my-auto">
+                                <button type="button"
+                                    class="btn bg-gradient-dark w-100 btn-lg mb-0 m4 mt-3">Search</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col col-lg-2 col-xs-12">
+
+
+                    <div class="stayfocused">
+                        <h2>Stay focused</h2>
+                        <p>Your daily dose of inspiration and motivation</p>
+                        <p><a href="#">Login / Register</a></p>
+                    </div>
+                    <div class="banner-area">
+                        <img src="https://placehold.co/100x75" alt="">
+                        <img src="https://placehold.co/100x75" alt="">
+                        <img src="https://placehold.co/100x75" alt="">
+                        <img src="https://placehold.co/100x75" alt="">
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <main class="mt-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col col-lg-12 shadow-lg p-3 mb-5 bg-success-soft rounded">
+                    <h1>
+                        Main content area
+                    </h1>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero iusto quia dolorum reiciendis, minus
+                    ratione quidem laudantium beatae veritatis nobis. Iusto delectus placeat corporis eaque impedit rem
+                    asperiores quisquam quam.
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <section class="py-6 bg-gray-100">
+        <div class="container">
+            <h2>Fresh Testimonials</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 mb-lg-0 mb-4">
+                                <div class="card">
+                                    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                                        <a href="javascript:;" class="d-block">
+                                            <img src="../../assets/img/blog7-1.jpg" class="img-fluid border-radius-lg">
+                                        </a>
+                                    </div>
+
+                                    <div class="card-body pt-3">
+                                        <span
+                                            class="text-gradient text-warning text-uppercase text-xs font-weight-bold my-2">House</span>
+                                        <a href="javascript:;" class="card-title h5 d-block text-darker">
+                                            Shared Coworking
+                                        </a>
+                                        <p class="card-description mb-4">
+                                            Use border utilities to quickly style the border and border-radius of an
+                                            element. Great
+                                            for images, buttons.
+                                        </p>
+                                        <div class="author align-items-center">
+                                            <img src="../../assets/img/team-2.jpg" alt="..." class="avatar shadow">
+                                            <div class="name ps-3">
+                                                <span>Mathew Glock</span>
+                                                <div class="stats">
+                                                    <small>Posted on 28 February</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-lg-0 mb-4 d-none d-md-block">
+                                <div class="card">
+                                    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                                        <a href="javascript:;" class="d-block">
+                                            <img src="../../assets/img/blog7-2.jpg" class="img-fluid border-radius-lg">
+                                        </a>
+                                    </div>
+
+                                    <div class="card-body pt-3">
+                                        <span
+                                            class="text-gradient text-info text-uppercase text-xs font-weight-bold my-2">Office</span>
+                                        <a href="javascript:;" class="text-darker card-title h5 d-block">
+                                            Really Housekeeping
+                                        </a>
+                                        <p class="card-description mb-4">
+                                            Use border utilities to quickly style the border and border-radius of an
+                                            element. Great
+                                            for images, buttons.
+                                        </p>
+                                        <div class="author align-items-center">
+                                            <img src="../../assets/img/ivana-square.jpg" alt="..."
+                                                class="avatar shadow">
+                                            <div class="name ps-3">
+                                                <span>Chriss Smahos</span>
+                                                <div class="stats">
+                                                    <small>Posted 2 min ago</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-lg-0 mb-4 d-none d-md-block">
+                                <div class="card">
+                                    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                                        <a href="javascript:;" class="d-block">
+                                            <img src="../../assets/img/blog7-3.jpg" class="img-fluid border-radius-lg">
+                                        </a>
+                                    </div>
+
+                                    <div class="card-body pt-3">
+                                        <span
+                                            class="text-gradient text-warning text-uppercase text-xs font-weight-bold my-2">Hub</span>
+                                        <a href="javascript:;" class="text-darker card-title h5 d-block">
+                                            Shared Coworking
+                                        </a>
+                                        <p class="card-description mb-4">
+                                            Use border utilities to quickly style the border and border-radius of an
+                                            element. Great
+                                            for images, buttons.
+                                        </p>
+                                        <div class="author align-items-center">
+                                            <img src="../../assets/img/marie.jpg" alt="..." class="avatar shadow">
+                                            <div class="name ps-3">
+                                                <span>Elijah Miller</span>
+                                                <div class="stats">
+                                                    <small>Posted now</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 mb-lg-0 mb-4">
+                                <div class="card">
+                                    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                                        <a href="javascript:;" class="d-block">
+                                            <img src="../../assets/img/blog7-1.jpg" class="img-fluid border-radius-lg">
+                                        </a>
+                                    </div>
+
+                                    <div class="card-body pt-3">
+                                        <span
+                                            class="text-gradient text-warning text-uppercase text-xs font-weight-bold my-2">House</span>
+                                        <a href="javascript:;" class="card-title h5 d-block text-darker">
+                                            Shared Coworking
+                                        </a>
+                                        <p class="card-description mb-4">
+                                            Use border utilities to quickly style the border and border-radius of an
+                                            element. Great
+                                            for images, buttons.
+                                        </p>
+                                        <div class="author align-items-center">
+                                            <img src="../../assets/img/team-2.jpg" alt="..." class="avatar shadow">
+                                            <div class="name ps-3">
+                                                <span>Mathew Glock</span>
+                                                <div class="stats">
+                                                    <small>Posted on 28 February</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-lg-0 mb-4 d-none d-md-block">
+                                <div class="card">
+                                    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                                        <a href="javascript:;" class="d-block">
+                                            <img src="../../assets/img/blog7-2.jpg" class="img-fluid border-radius-lg">
+                                        </a>
+                                    </div>
+
+                                    <div class="card-body pt-3">
+                                        <span
+                                            class="text-gradient text-info text-uppercase text-xs font-weight-bold my-2">Office</span>
+                                        <a href="javascript:;" class="text-darker card-title h5 d-block">
+                                            Really Housekeeping
+                                        </a>
+                                        <p class="card-description mb-4">
+                                            Use border utilities to quickly style the border and border-radius of an
+                                            element. Great
+                                            for images, buttons.
+                                        </p>
+                                        <div class="author align-items-center">
+                                            <img src="../../assets/img/ivana-square.jpg" alt="..."
+                                                class="avatar shadow">
+                                            <div class="name ps-3">
+                                                <span>Chriss Smahos</span>
+                                                <div class="stats">
+                                                    <small>Posted 2 min ago</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-lg-0 mb-4 d-none d-md-block">
+                                <div class="card">
+                                    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                                        <a href="javascript:;" class="d-block">
+                                            <img src="../../assets/img/blog7-3.jpg" class="img-fluid border-radius-lg">
+                                        </a>
+                                    </div>
+
+                                    <div class="card-body pt-3">
+                                        <span
+                                            class="text-gradient text-warning text-uppercase text-xs font-weight-bold my-2">Hub</span>
+                                        <a href="javascript:;" class="text-darker card-title h5 d-block">
+                                            Shared Coworking
+                                        </a>
+                                        <p class="card-description mb-4">
+                                            Use border utilities to quickly style the border and border-radius of an
+                                            element. Great
+                                            for images, buttons.
+                                        </p>
+                                        <div class="author align-items-center">
+                                            <img src="../../assets/img/marie.jpg" alt="..." class="avatar shadow">
+                                            <div class="name ps-3">
+                                                <span>Elijah Miller</span>
+                                                <div class="stats">
+                                                    <small>Posted now</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="min-vh-75 position-absolute w-100 top-0">
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon position-absolute bottom-50 ms-n7"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon position-absolute bottom-50 me-n7"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ---- START FOOTER 10 white w/ bg image 5 cols & subscribe area & social---- -->
+
+    <footer class="footer py-lg-7 position-relative overflow-hidden">
+        <img src="../../assets/img/shapes/waves-gray.svg" alt="pattern-lines"
+            class="position-absolute start-0 top-0 w-100 opacity-6">
+        <div class="position-absolute w-100 bottom-0">
+            <svg width="100%" viewBox="0 -1 1920 166" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>wave-up</title>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(0.000000, 5.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <g id="wave-up" transform="translate(0.000000, -5.000000)">
+                            <path
+                                d="M0,70 C298.666667,105.333333 618.666667,95 960,39 C1301.33333,-17 1621.33333,-11.3333333 1920,56 L1920,165 L0,165 L0,70 Z">
+                            </path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="container position-relative z-index-1 mt-8">
+            <div class="row ">
+                <div class="col-lg-2 col-md-2 col-4">
+                    <h6 class="text-sm">Company</h6>
+                    <ul class="flex-column ms-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Marketing
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Analytics
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Commerce
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Insights
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-4">
+                    <h6 class="text-sm">Support</h6>
+                    <ul class="flex-column ms-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Pricing
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Docs
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Guides
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                API Suport
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-4">
+                    <h6 class="text-sm">Pages</h6>
+                    <ul class="flex-column ms-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com/presentation"
+                                target="_blank">
+                                About
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com/blog" target="_blank">
+                                Blog
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Jobs
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Press
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-4">
+                    <h6 class="text-sm">Legal</h6>
+                    <ul class="flex-column ms-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com/affiliates/new"
+                                target="_blank">
+                                Affiliates
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Claim
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Privacy
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link opacity-8" href="https://www.creative-tim.com" target="_blank">
+                                Terms
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-8 ms-auto">
+                    <h6 class="text-end text-sm">Language & Currency</h6>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mt-3">
+                            <select class="form-control" name="language-button" id="language-button"
+                                placeholder="Language">
+                                <option value="Choice 1" selected>English</option>
+                                <option value="Choice 2">Chinese</option>
+                                <option value="Choice 3">French</option>
+                                <option value="Choice 4">Romanian</option>
+                            </select>
+                        </li>
+                        <li class="nav-item mt-3">
+                            <select class="form-control" name="currency-button" id="currency-button"
+                                placeholder="Currency">
+                                <option value="Choice 1" selected>USD</option>
+                                <option value="Choice 2">EUR</option>
+                                <option value="Choice 3">JPY</option>
+                                <option value="Choice 4">GBP</option>
+                                <option value="Choice 5">CAD</option>
+                                <option value="Choice 6">RON</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="horizontal dark my-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 my-auto">
+                    <p class="mb-0 opacity-8">
+                        Copyright ©
+                        <script>document.write(new Date().getFullYear())</script> Soft by Creative Tim.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6  ms-auto text-end">
+                    <button type="button" class="btn btn-icon-only btn-link mb-0 opacity-6">
+                        <i class="fab fa-facebook text-lg text-secondary"></i>
+                    </button>
+                    <button type="button" class="btn btn-icon-only btn-link mb-0 opacity-6">
+                        <i class="fab fa-twitter text-lg text-secondary"></i>
+                    </button>
+                    <button type="button" class="btn btn-icon-only btn-link mb-0 opacity-6">
+                        <i class="fab fa-dribbble text-lg text-secondary"></i>
+                    </button>
+                    <button type="button" class="btn btn-icon-only btn-link mb-0 opacity-6">
+                        <i class="fab fa-github text-lg text-secondary"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ---- END FOOTER 10 white w/ bg image 5 cols & subscribe area & social---- -->
+    <!-- -------- END HEADER 4 w/ search book a ticket form ------- -->
+    <!--   Core JS Files   -->
+    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src=" ./assets/js/plugins/perfect-scrollbar.min.js" type="text/javascript"></script>
+    <script src="./assets/js/plugins/moment.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        $(".datepicker").flatpickr();
+    </script>
+
+    <!-- Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/plugins/nouislider.min.js"></script>
+
+    <!--  Plugin for the Carousel, full documentation here: http://jedrzejchalubek.com/  -->
+    <script src="./assets/js/plugins/glidejs.min.js"></script>
+
+    <!--	Plugin for Select, full documentation here: https://joshuajohnson.co.uk/Choices/ -->
+    <script src="./assets/js/plugins/choices.min.js" type="text/javascript"></script>
+
+
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+    <!-- Control Center for Soft UI Design System: parallax effects, scripts for the example pages etc -->
+    <script src="./assets/js/soft-design-system-pro.min.js" type="text/javascript"></script>
+</body>
+
+</html>
